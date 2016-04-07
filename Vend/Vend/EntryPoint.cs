@@ -15,6 +15,8 @@ namespace Vend
 		{
 			Console.WriteLine("Hello world!");
 			Console.Read();
+			Console.WriteLine("You pressed a certain key. Good job!");
+			Console.Read();
 		}
 	}
 }
