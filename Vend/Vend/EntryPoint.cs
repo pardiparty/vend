@@ -13,10 +13,10 @@ namespace Vend
 		 */
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello world!");
-			Console.Read();
-			Console.WriteLine("You pressed a certain key. Good job!");
-			Console.Read();
+			Console.WriteLine("Hello world! Please type something: ");
+			var text = Console.ReadLine();
+			Console.WriteLine("Your input was \"" + text + "\". Press enter or something to continue.");
+			Console.ReadKey();
 		}
 	}
 }
